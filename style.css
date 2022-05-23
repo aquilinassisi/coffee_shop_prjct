@@ -1,0 +1,145 @@
+body{
+    /* overflow: hidden; */
+}
+.container-fluid img{
+    height: 80px;
+    width: 100%;
+}
+.container-fluid{
+    padding-top: 40px;
+    height: 100px;
+    font-family: cursive;
+    background-color: rgb(226, 223, 223);
+    position: fixed;
+}
+.container-fluid:hover{
+    background-color: white;
+    
+}
+.container-fluid a{
+    color:rgb(180, 86, 86);
+}
+.container-fluid a:hover{
+    color: rgb(113, 5, 5);
+}
+.float-container{
+    border: 3px solid white;
+}
+.float-child{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px solid white;
+}
+.frstcol h1{
+    padding-top: 50px;
+    font-family: cursive;
+    text-transform: lowercase;
+    font-size: 100px;
+    padding-left: 200px;
+    color:rgba(129, 17, 17, 0.739) ;
+}
+.scndcol{
+    padding-top: 50px;
+    padding-right:300px ;
+    font-family: cursive;
+    color: rgb(163, 103, 103);
+}
+.column{
+    float: left;
+    width: 20px;
+    padding: 5px;
+}
+.row-column{
+   float: left;
+   text-align: center;
+   padding: 85px;
+   /* padding-right: 14px; */
+   margin-left: 25px;
+   justify-content: space-evenly;
+   border:solid white ;
+}
+.row-column:hover{
+    border:solid rgb(163, 103, 103);
+}
+.menu{
+    padding-top: 450px;
+    /* padding-right: 5000px; */
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration:underline dotted ;
+    font-family: cursive ;
+    color: rgba(129, 17, 17, 0.739) ;
+}
+.row-col button{
+    font-family: cursive ;
+}
+h5{
+    text-align: center;
+    color: rgb(163, 103, 103);
+}
+.gallery h3{
+    color: rgba(129, 17, 17, 0.739) ;
+}
+.gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    /* padding-right: 50px; */
+    text-decoration:underline dotted ;
+    font-family: cursive ;
+    color: rgba(129, 17, 17, 0.739) ;
+}
+.gal{
+    padding-right: 85px;
+    padding-left:85px ;
+    height: 550px;
+    /* width: 30%; */
+}
+.about-child .headin{
+    font-family: cursive;
+    text-align: center;
+    padding-top: 1230px;
+    text-decoration: underline dotted;
+    color: rgba(129, 17, 17, 0.739) ;
+}
+.about-child .aboutus-child{
+    padding-left: 650px;
+    padding-top: 20px;
+    color:rgb(163, 103, 103);
+}
+footer{
+    text-decoration: underline;
+    padding-top: 90px;
+    padding-left: 90px;
+}
+
+.contact-row{
+    float: left;
+    padding: 100px;
+} 
+.contact-row h4{
+    color: brown;
+}
+.contact-row i{
+    color: rgb(163, 103, 103);
+    padding: 6px;
+}
+.contact-row i:hover{
+    color: rgb(54, 2, 2); ;
+}
+.contact-column{
+    padding-left: 300px;
+}
+.contact-column a{
+    color: rgb(163, 103, 103);
+    padding: 7px;
+}
+.contact-column a:hover{
+    color: rgba(39, 7, 7, 0.739) ;
+}
+
+const scroll = new SmoothScroll('.navbar a[href*="#"]',{
+    speed:800
+});
